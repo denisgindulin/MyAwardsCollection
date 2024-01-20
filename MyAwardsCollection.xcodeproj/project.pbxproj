@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		22A9245E2B5971DE008E28B9 /* MyAwardsCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A9245D2B5971DE008E28B9 /* MyAwardsCollectionApp.swift */; };
-		22A924602B5971DE008E28B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A9245F2B5971DE008E28B9 /* ContentView.swift */; };
+		22A924602B5971DE008E28B9 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A9245F2B5971DE008E28B9 /* StarterView.swift */; };
 		22A924622B5971E0008E28B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A924612B5971E0008E28B9 /* Assets.xcassets */; };
 		22A924652B5971E0008E28B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A924642B5971E0008E28B9 /* Preview Assets.xcassets */; };
+		22A9246C2B597243008E28B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A9246B2B597243008E28B9 /* MainView.swift */; };
+		22A9246E2B59725A008E28B9 /* CartRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A9246D2B59725A008E28B9 /* CartRacingView.swift */; };
+		22A924702B597272008E28B9 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A9246F2B597272008E28B9 /* AwardsView.swift */; };
+		22A924722B597B70008E28B9 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A924712B597B70008E28B9 /* GradientRectangles.swift */; };
+		22A924742B597B88008E28B9 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A924732B597B88008E28B9 /* PathView.swift */; };
+		22A924762B597B93008E28B9 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A924752B597B93008E28B9 /* CurvesView.swift */; };
+		22A924782B5ADE9D008E28B9 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A924772B5ADE9D008E28B9 /* HeartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22A9245A2B5971DE008E28B9 /* MyAwardsCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwardsCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A9245D2B5971DE008E28B9 /* MyAwardsCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAwardsCollectionApp.swift; sourceTree = "<group>"; };
-		22A9245F2B5971DE008E28B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22A9245F2B5971DE008E28B9 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		22A924612B5971E0008E28B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A924642B5971E0008E28B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22A9246B2B597243008E28B9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		22A9246D2B59725A008E28B9 /* CartRacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRacingView.swift; sourceTree = "<group>"; };
+		22A9246F2B597272008E28B9 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		22A924712B597B70008E28B9 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		22A924732B597B88008E28B9 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		22A924752B597B93008E28B9 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		22A924772B5ADE9D008E28B9 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				22A9245D2B5971DE008E28B9 /* MyAwardsCollectionApp.swift */,
-				22A9245F2B5971DE008E28B9 /* ContentView.swift */,
+				22A9245F2B5971DE008E28B9 /* StarterView.swift */,
+				22A9246B2B597243008E28B9 /* MainView.swift */,
+				22A9246D2B59725A008E28B9 /* CartRacingView.swift */,
+				22A9246F2B597272008E28B9 /* AwardsView.swift */,
+				22A924712B597B70008E28B9 /* GradientRectangles.swift */,
+				22A924732B597B88008E28B9 /* PathView.swift */,
+				22A924752B597B93008E28B9 /* CurvesView.swift */,
+				22A924772B5ADE9D008E28B9 /* HeartView.swift */,
 				22A924612B5971E0008E28B9 /* Assets.xcassets */,
 				22A924632B5971E0008E28B9 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22A924602B5971DE008E28B9 /* ContentView.swift in Sources */,
+				22A9246E2B59725A008E28B9 /* CartRacingView.swift in Sources */,
+				22A924602B5971DE008E28B9 /* StarterView.swift in Sources */,
+				22A924702B597272008E28B9 /* AwardsView.swift in Sources */,
+				22A924742B597B88008E28B9 /* PathView.swift in Sources */,
+				22A9246C2B597243008E28B9 /* MainView.swift in Sources */,
 				22A9245E2B5971DE008E28B9 /* MyAwardsCollectionApp.swift in Sources */,
+				22A924762B597B93008E28B9 /* CurvesView.swift in Sources */,
+				22A924782B5ADE9D008E28B9 /* HeartView.swift in Sources */,
+				22A924722B597B70008E28B9 /* GradientRectangles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
